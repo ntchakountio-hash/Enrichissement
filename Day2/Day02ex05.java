@@ -1,4 +1,3 @@
-package ngamina.Day2;
 
 public class Day02ex05 {
     public static void main(String[] args) {

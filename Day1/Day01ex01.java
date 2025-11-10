@@ -1,4 +1,3 @@
-package ngamina.Day1;
 
 import java.util.Scanner;
 

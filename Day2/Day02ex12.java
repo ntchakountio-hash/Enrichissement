@@ -1,4 +1,3 @@
-package ngamina.Day2;
 
 import java.util.Scanner;
 
@@ -47,6 +46,5 @@ public class Day02ex12 {
 
         sc.close(); // Fermer le scanner
 
-        sllsdldlls
     }
 }
