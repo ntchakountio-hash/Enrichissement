@@ -14,7 +14,7 @@ public class Day02ex09 {
         System.out.print("Entrez le rayon du cercle (nombre entier) : ");
         int rayon = sc.nextInt();
 
-        double diametre = 2 * rayon;
+
         // Appeler la méthode pour calculer la circonférence
         double resultat = circonference(rayon);
         

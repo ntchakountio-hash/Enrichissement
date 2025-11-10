@@ -8,8 +8,7 @@ public class Day01ex06 {
         // Afficher les informations du client
         System.out.print("Entrez votre nom : ");
         String nomClient = sc.nextLine();
-        System.out.print("Entrez votre prenom : ");
-        String prenomClient = sc.nextLine();
+        
 
         // Afficher les options
         System.out.println("=== Estimation BoisFranc ===");
