@@ -19,7 +19,7 @@ public static void main(String[] args) {
         // Affichage du tablea
         System.out.println("Contenu du tableau : ");
         for (int i = 0; i < nombres.length; i++) {
-            System.out.println("Case " + i + " : " + nombres[i]);
+            System.out.println("Case " + i + " : " + nombres[i]); //Tableau vertical
         }
 
     }

@@ -1,24 +1,22 @@
 import java.util.Random;
-import java.util.Scanner;
 
 public class Day03ex04 {
     public static void main(String[] args) {
 
         Random rand = new Random(); // pour générer des nombres aléatoires
-        Scanner sc = new Scanner(System.in);
         int taille = 5; // Taille du tableau
 
         int[] nombre = new int[taille]; // Déclaration du tableau
 
-        // Remplissage du tableau avec des valeurs aléatoires entre 1 et 100
+        // Remplissage du tableau avec des valeurs aléatoires entre 0 et 100
         for (int i = 0; i < taille; i++) {
-            nombre[i] = rand.nextInt(100) + 1; // génère entre 1 et 100
+            nombre[i] = rand.nextInt(101); // génère entre 0 et 100
         }
 
         // Affichage du tableau
         System.out.println("Tabeau 1 :");
         for (int i = 0; i < taille; i++) {
-            System.out.println(nombre[i] + " ");
+            System.out.println(nombre[i] + " "); //Tableau vertical
         }
 
         // Recherche du plus grand nombre

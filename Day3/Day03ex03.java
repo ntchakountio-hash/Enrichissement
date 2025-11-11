@@ -25,12 +25,12 @@ public class Day03ex03 {
         // Affichage des deux tableaux
         System.out.println("Tabeau 1 :");
         for (int i = 0; i < taille; i++) {
-            System.out.println(tableau1[i] + " ");
+            System.out.println(tableau1[i] + " "); //Tableau vertical
         }
 
         System.out.println("\n\nTableau 2 :");
         for (int i = 0; i < taille; i++) {
-            System.out.println(tableau2[i] + "");
+            System.out.println(tableau2[i] + ""); //Tableau vertical
         }
     }
 }

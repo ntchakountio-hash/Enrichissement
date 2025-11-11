@@ -14,7 +14,7 @@ public class Day03ex01 {
         // Affichage du tablea
         System.out.println("Contenu du tableau : ");
         for (int i = 0; i < mots.length; i++) {
-            System.out.println("Case " + i + " : " + mots[i]);
+            System.out.println("Case " + i + " : " + mots[i]); //Tableau vertical
         }
 
     }
